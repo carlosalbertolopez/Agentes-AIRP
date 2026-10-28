@@ -1,0 +1,60 @@
+{
+  "agent_id": "agent_b371a3cb389e4feeefd8e2bd63",
+  "channel": "voice",
+  "last_modification_timestamp": 1793207840003,
+  "agent_name": "5.Ventas-cliente",
+  "version_description": "Versión para probar el github",
+  "response_engine": {
+    "conversation_flow_id": "conversation_flow_141d3c23b355",
+    "type": "conversation-flow",
+    "version": 1
+  },
+  "language": "es-419",
+  "data_storage_setting": "everything",
+  "contact_memory_config": {
+    "enable_read": false,
+    "enable_update": false
+  },
+  "opt_in_signed_url": false,
+  "end_call_after_silence_ms": 30000,
+  "version": 1,
+  "base_version": 0,
+  "assigned_tags": [],
+  "is_published": true,
+  "version_title": "CALG",
+  "post_call_analysis_model": "gpt-5-mini",
+  "pii_config": {
+    "categories": [],
+    "mode": "post_call"
+  },
+  "handbook_config": {
+    "ai_disclosure": true,
+    "conversational_personality": true,
+    "default_personality": false,
+    "echo_verification": false,
+    "high_empathy": false,
+    "nato_phonetic_alphabet": false,
+    "natural_filler_words": false,
+    "scope_boundaries": false,
+    "smart_matching": false,
+    "speech_normalization": false
+  },
+  "post_call_analysis_data": [
+    {
+      "description": "Escribe un resumen breve del chat en español latinoamericano (es-419), sin importar el idioma en que esté escrita la conversación. Incluye el motivo de la consulta del usuario y el resultado.",
+      "name": "call_summary",
+      "required": true,
+      "type": "system-presets"
+    }
+  ],
+  "voice_id": "custom_voice_ca8621d191aac34fdfd5fbe476",
+  "voice_temperature": 1,
+  "voice_speed": 1,
+  "volume": 1,
+  "enable_expressive_mode": false,
+  "max_call_duration_ms": 302000,
+  "interruption_sensitivity": 0.9,
+  "responsiveness": 0.97,
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {}
+}
