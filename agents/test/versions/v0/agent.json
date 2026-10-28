@@ -1,0 +1,48 @@
+{
+  "agent_id": "agent_636ec8cd33f1db2d3ac1319816",
+  "channel": "voice",
+  "last_modification_timestamp": 1793207678228,
+  "agent_name": "Test",
+  "version_description": "Versión para probar la sincronización con github",
+  "response_engine": {
+    "conversation_flow_id": "conversation_flow_b307db34268a",
+    "type": "conversation-flow",
+    "version": 0
+  },
+  "language": "es-419",
+  "data_storage_setting": "everything",
+  "contact_memory_config": {
+    "enable_read": true,
+    "enable_update": false
+  },
+  "opt_in_signed_url": false,
+  "version": 0,
+  "assigned_tags": [],
+  "is_published": true,
+  "version_title": "CALG",
+  "post_call_analysis_model": "gpt-5.6-terra",
+  "pii_config": {
+    "categories": [],
+    "mode": "post_call"
+  },
+  "handbook_config": {
+    "ai_disclosure": true,
+    "default_personality": true
+  },
+  "timezone": "America/Los_Angeles",
+  "voice_id": "custom_voice_c9d395950c78c7b9e9505e4001",
+  "fallback_voice_ids": [],
+  "voice_temperature": 1,
+  "voice_speed": 1,
+  "volume": 1,
+  "enable_expressive_mode": false,
+  "max_call_duration_ms": 3600000,
+  "interruption_sensitivity": 0.9,
+  "voicemail_option": {
+    "action": {
+      "type": "hangup"
+    }
+  },
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {}
+}
