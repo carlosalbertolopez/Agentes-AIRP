@@ -1,0 +1,68 @@
+{
+  "agent_id": "agent_860c2d6b5b882f1e45ee2dd642",
+  "channel": "voice",
+  "last_modification_timestamp": 1793302683911,
+  "agent_name": "1.dispatcher",
+  "version_description": "HHDD DD ",
+  "response_engine": {
+    "conversation_flow_id": "conversation_flow_23c4a278c5df",
+    "type": "conversation-flow",
+    "version": 1
+  },
+  "language": "es-419",
+  "data_storage_setting": "everything",
+  "contact_memory_config": {
+    "enable_read": true,
+    "enable_update": true
+  },
+  "opt_in_signed_url": false,
+  "end_call_after_silence_ms": 30000,
+  "version": 1,
+  "base_version": 0,
+  "assigned_tags": [],
+  "is_published": true,
+  "version_title": "CALG",
+  "post_call_analysis_model": "gpt-5-mini",
+  "pii_config": {
+    "categories": [],
+    "mode": "post_call"
+  },
+  "handbook_config": {
+    "ai_disclosure": false,
+    "conversational_personality": true,
+    "default_personality": false,
+    "echo_verification": false,
+    "high_empathy": false,
+    "nato_phonetic_alphabet": false,
+    "natural_filler_words": false,
+    "scope_boundaries": false,
+    "smart_matching": false,
+    "speech_normalization": false
+  },
+  "timezone": "America/Bogota",
+  "post_call_analysis_data": [
+    {
+      "description": "Descripcion clara y sintetizada, en espanol, de lo que necesita quien llama. Usa unicamente lo que el llamante dijo explicitamente en la conversacion: no agregues ninguna clasificaion, ni ningun detalle que el llamante no haya mencionado. Reformula solo por claridad gramatical, conservando el lenguaje literal del llamante en la mayor medida posible.",
+      "name": "request",
+      "type": "string"
+    },
+    {
+      "description": "Escribe un resumen breve del chat en español latinoamericano (es-419), sin importar el idioma en que esté escrita la conversación. Incluye el motivo de la consulta del usuario y el resultado.",
+      "name": "call_summary",
+      "required": true,
+      "type": "system-presets"
+    }
+  ],
+  "voice_id": "custom_voice_ca8621d191aac34fdfd5fbe476",
+  "voice_temperature": 1,
+  "voice_speed": 1,
+  "volume": 1,
+  "enable_expressive_mode": false,
+  "reminder_trigger_ms": 15000,
+  "reminder_max_count": 1,
+  "max_call_duration_ms": 3600000,
+  "responsiveness": 0.91,
+  "stt_mode": "fast",
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {}
+}
