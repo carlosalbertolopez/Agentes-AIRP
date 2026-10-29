@@ -1,0 +1,10 @@
+{
+  "logical_agent_key": "test",
+  "last_github_version": 1,
+  "retell_agent_id": "agent_636ec8cd33f1db2d3ac1319816",
+  "retell_version": 0,
+  "latest_file": "agents/test/versions/v1/agent.json",
+  "agent_recreated": false,
+  "previous_retell_agent_id": null,
+  "updated_at": "2026-10-29T17:46:04.677Z"
+}
