@@ -1,10 +1,10 @@
 {
   "logical_agent_key": "1-dispatcher",
-  "last_github_version": 2,
+  "last_github_version": 3,
   "retell_agent_id": "agent_860c2d6b5b882f1e45ee2dd642",
-  "retell_version": 1,
-  "latest_file": "agents/1-dispatcher/versions/v2/agent.json",
+  "retell_version": 3,
+  "latest_file": "agents/1-dispatcher/versions/v3/agent.json",
   "agent_recreated": false,
   "previous_retell_agent_id": "agent_860c2d6b5b882f1e45ee2dd642",
-  "updated_at": "2026-10-29T19:38:12.186Z"
+  "updated_at": "2026-10-29T19:44:39.202Z"
 }
