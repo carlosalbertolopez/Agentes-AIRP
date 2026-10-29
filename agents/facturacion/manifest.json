@@ -1,0 +1,10 @@
+{
+  "logical_agent_key": "facturacion",
+  "last_github_version": 1,
+  "retell_agent_id": "agent_b8abbb0d1cee36cea3218bd046",
+  "retell_version": 0,
+  "latest_file": "agents/facturacion/versions/v1/agent.json",
+  "agent_recreated": false,
+  "previous_retell_agent_id": null,
+  "updated_at": "2026-10-29T18:58:22.487Z"
+}
