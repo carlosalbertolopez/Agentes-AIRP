@@ -1,7 +1,10 @@
 {
   "logical_agent_key": "5-ventas-cliente",
-  "last_github_version": 2,
-  "retell_agent_id": "legacy-agent",
+  "last_github_version": 3,
+  "retell_agent_id": "agent_b371a3cb389e4feeefd8e2bd63",
   "retell_version": 2,
-  "latest_file": "agents/5-ventas-cliente/versions/v2/agent.json"
+  "latest_file": "agents/5-ventas-cliente/versions/v3/agent.json",
+  "agent_recreated": true,
+  "previous_retell_agent_id": "legacy-agent",
+  "updated_at": "2026-10-29T17:46:04.407Z"
 }
