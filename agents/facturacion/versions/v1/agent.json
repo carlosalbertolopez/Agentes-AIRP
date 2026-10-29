@@ -1,0 +1,66 @@
+{
+  "agent_id": "agent_b8abbb0d1cee36cea3218bd046",
+  "channel": "voice",
+  "last_modification_timestamp": 1793300289657,
+  "agent_name": "Facturacion",
+  "version_description": "Octubre 29",
+  "response_engine": {
+    "conversation_flow_id": "conversation_flow_39c852a5e525",
+    "type": "conversation-flow",
+    "version": 0
+  },
+  "language": "es-419",
+  "data_storage_setting": "everything",
+  "contact_memory_config": {
+    "enable_read": false,
+    "enable_update": false
+  },
+  "opt_in_signed_url": false,
+  "version": 0,
+  "assigned_tags": [],
+  "is_published": true,
+  "version_title": "CALG",
+  "post_call_analysis_model": "gpt-4.1",
+  "pii_config": {
+    "categories": [],
+    "mode": "post_call"
+  },
+  "handbook_config": {
+    "ai_disclosure": true,
+    "conversational_personality": true,
+    "default_personality": false,
+    "echo_verification": false,
+    "high_empathy": false,
+    "nato_phonetic_alphabet": false,
+    "natural_filler_words": true,
+    "scope_boundaries": false,
+    "smart_matching": true,
+    "speech_normalization": true
+  },
+  "post_call_analysis_data": [
+    {
+      "description": "Escribe un resumen breve del chat en español latinoamericano (es-419), sin importar el idioma en que esté escrita la conversación. Incluye el motivo de la consulta del usuario y el resultado.",
+      "name": "call_summary",
+      "required": true,
+      "type": "system-presets"
+    }
+  ],
+  "voice_id": "custom_voice_ca8621d191aac34fdfd5fbe476",
+  "voice_temperature": 1,
+  "voice_speed": 1,
+  "volume": 1,
+  "enable_expressive_mode": false,
+  "expressive_emotion_tags": [
+    "empathetic",
+    "excited",
+    "sigh",
+    "clear throat",
+    "surprised",
+    "happy",
+    "curious"
+  ],
+  "max_call_duration_ms": 3600000,
+  "interruption_sensitivity": 0.9,
+  "allow_user_dtmf": true,
+  "user_dtmf_options": {}
+}
